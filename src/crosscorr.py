@@ -123,7 +123,7 @@ def bootstrap_ci(
     original_lag, _ = peak_lag(original_result)
 
     bootstrap_lags = []
-    # Optionally suppress tqdm in tests by disabling or handling it wrapper
+    # Iterate block samples with replacement
     for _ in range(n_bootstrap):
         # sample block indices with replacement
         chosen_blocks = np.random.randint(0, n_blocks, size=n_blocks)
