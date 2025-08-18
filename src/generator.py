@@ -14,7 +14,7 @@ def generate_coupled_pair(
     with Gaussian noise. An optional linear drift is added to both channels.
 
     Args:
-        n_samples: Number of time samples to generate.
+        n_samples: Number of time samples to generate (must be >= 10).
         lag: Lag in seconds. Positive means y lags behind x. Can be fractional.
         noise_std: Standard deviation of additive Gaussian noise applied to y.
         fs: Sampling frequency in Hz. Used to convert lag (seconds) to samples.
