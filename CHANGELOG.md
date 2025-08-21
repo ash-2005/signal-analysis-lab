@@ -2,7 +2,7 @@
 
 All notable changes to `signal-analysis-lab` are documented in this file.
 Format follows [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
-Versioning follows [Semantic Versioning](https://semver.org/).
+Versioning tracks [Semantic Versioning](https://semver.org/).
 
 ---
 
