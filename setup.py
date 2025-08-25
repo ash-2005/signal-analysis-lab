@@ -4,7 +4,7 @@ setup(
     name="signal-analysis-lab",
     version="0.3.0",
     author="Ashmit Gupta",
-    author_email="ashmit@students.iiisonepat.ac.in",
+    author_email="ashmitg25@gmail.com",
     description=(
         "A self-contained Python library and CLI for multivariate "
         "time-series signal analysis — cross-correlation, spectral "
